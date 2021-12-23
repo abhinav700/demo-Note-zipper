@@ -1,7 +1,7 @@
 import React from "react";
 import { Container,Row } from "react-bootstrap";
 
-const MainScreen = (title, children) => {
+const MainScreen = (props) => {
   return (
     <>
       <div className="mainback">
@@ -11,11 +11,11 @@ const MainScreen = (title, children) => {
             <div className="page">
               {(
                 <>
-                  <h1 className="heading">{title}</h1>
+                  <h1 className="heading">{props.title}</h1>
                   <hr />
                 </>
               )}
-              {children}
+              {props.children}
             </div>
           </Row>
         </Container>
