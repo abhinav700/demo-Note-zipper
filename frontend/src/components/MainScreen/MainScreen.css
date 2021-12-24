@@ -1,0 +1,10 @@
+.mainback{
+    min-height: 93vh;
+    display: flex;
+    padding: 100px;
+}
+
+.heading{
+    font-size: 50px;
+}
+
